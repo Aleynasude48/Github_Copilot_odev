@@ -20,7 +20,4 @@ def average_ratios(numbers: list[float]) -> float:
 
 
 if __name__ == "__main__":
-    try:
-        print(average_ratios([10, 5, 0]))
-    except ValueError as error:
-        print(f"Unable to compute average ratios: {error}")
+    print(average_ratios([10, 5, 0]))
